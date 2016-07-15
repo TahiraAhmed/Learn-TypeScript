@@ -44,3 +44,4 @@ if (true) {
     var ad_1 = 10;
 }
 console.log(ad); /** results 12 as expected */
+//# sourceMappingURL=let_const.js.map

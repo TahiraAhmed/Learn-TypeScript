@@ -22,3 +22,4 @@ var i;
 i = "hello";
 i = 10;
 i = true;
+//# sourceMappingURL=strong_typing.js.map

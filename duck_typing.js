@@ -39,3 +39,4 @@ myType2 = { foo: 7, baz: 7889 };
 myType2 = { foo: 7, bar: 78 };
 var myType3; // excess property
 myType2 = myType3;
+//# sourceMappingURL=duck_typing.js.map
