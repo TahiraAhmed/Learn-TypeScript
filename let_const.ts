@@ -5,7 +5,7 @@ function foo() {
    console.log( x ); /** variable hoisting. results 'undefined' */ 
    console.log( y ); /** undefined. variable hoisting */
  
-  var x = 1;  /** defined function-scoped variable. write let instead of var and see the code for errors. */
+  let x = 1;  /** defined function-scoped variable. write let instead of var and see the code for errors. */
   if (x === 1) {
     let y = 2;
 	 console.log( y ); /** results 2 */
@@ -16,7 +16,6 @@ function foo() {
 }
  
 foo();
-
 console.log( x );  /** reference error x is not defined. this error won't allow you to see the rest of the output of the code below this line */
 console.log( y );  /** reference error y is not defined */
 
@@ -63,3 +62,6 @@ console.log("let: " + z);// Error: z is not defined in this scope though it resu
    
   }
      console.log(ad); /** results 12 as expected */
+     
+ 
+
