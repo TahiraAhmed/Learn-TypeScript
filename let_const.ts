@@ -27,8 +27,7 @@ d = 5; /** syntax error */
 const e : number = 33;
 const c = "best";
 
-
-//I suggest you to use let instead of var everywhere, becuase let has blocked scope
+//use let instead of var everywhere, becuase let has blocked scope
 if (true) {
 	let z = 4;
 	//use z

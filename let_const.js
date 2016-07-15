@@ -20,7 +20,7 @@ var d = 5;
 d = 5; /** syntax error */
 var e = 33;
 var c = "best";
-//I suggest you to use let instead of var everywhere, becuase let has blocked scope
+//use let instead of var everywhere, becuase let has blocked scope
 if (true) {
     var z = 4;
 }
