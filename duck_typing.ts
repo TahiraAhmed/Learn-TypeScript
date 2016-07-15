@@ -44,7 +44,7 @@ console.log(v);
 
 // more examples
  
- let myType2: {foo: number, bar?: number}; // bar property is optional
+ let myType2: {foo: number, bar?: number}; 
  myType2 = {foo: 7};
  myType2 = {foo: 7, baz: 7889};
  myType2 = {foo: 7, bar : 78}

@@ -33,7 +33,7 @@ var l = { id: 1, str: "fdfd", str1: "dfdfd", str2: "sdds" };
 v = l;
 console.log(v);
 // more examples
-var myType2; // bar property is optional
+var myType2;
 myType2 = { foo: 7 };
 myType2 = { foo: 7, baz: 7889 };
 myType2 = { foo: 7, bar: 78 };

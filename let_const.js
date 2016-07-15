@@ -31,9 +31,9 @@ else {
 console.log("let: " + z); // Error: z is not defined in this scope though it results 4 after transpilation
 /** class code */
 if (true) {
-    alert(abc); // undefined
-    var abc = 10;
-    alert(abc);
+    alert(abc_1); // undefined
+    var abc_1 = 10;
+    alert(abc_1);
 }
 alert(abc); /** cannot find name abc, out of scope. after transpilation results 10 */
 // more examples 

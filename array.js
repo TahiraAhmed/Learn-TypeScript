@@ -10,3 +10,4 @@ var array5 = [];
 array5.push(1234); //dynamically adding
 console.log(array5);
 console.log(array5[0]);
+//# sourceMappingURL=array.js.map

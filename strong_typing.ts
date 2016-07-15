@@ -1,12 +1,14 @@
 //strongly typed syntax
 let a : string = "Pakistan";
 a = 3; /** error */
+
 let b : number = 9;
 b = 10;
 
 //type inference
 let f = 10.9;
 f = "tahira"; /** error */
+
 let g = false;
 g = true;
 
