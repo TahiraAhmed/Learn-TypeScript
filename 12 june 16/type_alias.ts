@@ -27,3 +27,7 @@ function work(x: StringNumberOrBoolean)
 function usingCallback(f: CallbackWithString){
     f("This is a string");
 }
+
+
+
+

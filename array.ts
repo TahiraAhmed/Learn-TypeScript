@@ -15,6 +15,9 @@ array5.push(1234); //dynamically adding
 console.log(array5);  
 console.log(array5[0]);
 
+ let arr2 : number[] = [1,2,3,4,5];
+ let arr3 : string[] = ["a", "b", "c"];
+ let arr4 : any[] = [1, "a", "b", {}, function(){}];
 
 
 

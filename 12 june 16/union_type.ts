@@ -43,7 +43,7 @@ if(typeof x === 'string') { //Line B
 }
 
 function concate(a: string | number, b: string | number) {
-         return a + b;
+        return a + b;
  }
 
  console.log(concate(1, 1));
@@ -86,4 +86,3 @@ if(isCat(x)) {
 //This allows you to work with not only typeof and instanceof checks, which need a type that JavaScript understands, 
 //but now you can work with interfaces and do custom analysis.  Guard functions are denoted by their “a is X” return type, 
 //which returns boolean and signals to the compiler if what the expected type now is.
-
