@@ -46,5 +46,17 @@ function makeChickenTikka(money : number) : string {
  let sum1 = (x:number, y: number) => x + y;
  console.log(sum1(10, 20)); // 30
  
+var add2 = (a: number, b: number) => {
+    return a + b;
+}
+console.log(add2(6,5));
+
+
+var myFunction = f => { this.x = "x"; }//automatically creating the that-equals-this pattern
+/*
+When compiled, TypeScript automatically makes sure this points to my class instead of the enclosed function:
+var _this = this;
+var myFunction = function (f) { _this.x = "x"; };
+*/											
 
 	

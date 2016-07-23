@@ -1,3 +1,4 @@
+var _this = this;
 //Named function
 function add(x, y) {
     return x + y;
@@ -37,4 +38,14 @@ var sum = function (x, y) {
 // lambda function
 var sum1 = function (x, y) { return x + y; };
 console.log(sum1(10, 20)); // 30
+var add2 = function (a, b) {
+    return a + b;
+};
+console.log(add2(6, 5));
+var myFunction = function (f) { _this.x = "x"; }; //automatically creating the that-equals-this pattern
+/*
+When compiled, TypeScript automatically makes sure this points to my class instead of the enclosed function:
+var _this = this;
+var myFunction = function (f) { _this.x = "x"; };
+*/
 //# sourceMappingURL=function.js.map
